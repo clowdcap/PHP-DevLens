@@ -1,0 +1,272 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;700&display=swap');
+
+body, ul, li, p, a {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    font-size: 105%;
+    font-family: Quicksand;
+    color: rgb(50, 50, 50);
+    
+}
+
+ol {
+    margin: 0px;
+    padding: 0px;
+    text-align: center;
+ 
+    padding-bottom: 2%;
+}
+
+ol li {
+    padding: 1%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+dt {
+    font-size: 80%;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+footer {
+    text-align: center;
+}
+
+h3 {
+    padding-top: 0;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: auto;
+    background-color: whitesmoke;
+}
+
+.flex > div {
+    flex: 1 1 300px;
+    margin: 2%;
+}
+
+.introducao_index {
+    text-align: center;
+    margin-top: 5%;
+}
+
+
+.header {
+    background: slategrey;
+    display: flex;
+    justify-content: space-between;
+    padding: 2%;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu_bar {
+    display: flex;
+}
+
+.menu_bar li {
+    margin-left: 20px;
+}
+
+.menu_bar li a {
+    display: block;
+    padding: 5px;
+}
+
+.grid1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    max-width: 80%;
+    margin: auto;
+    grid-gap: 3%;
+    margin-top: 3%;
+
+}
+
+.grid1 a {
+    color: rgb(50, 50, 50);
+}
+
+.imagem_apresentacao {
+    width: 100%;
+    height: 100%;
+}
+
+.apresentacao {
+    background-color: whitesmoke;
+    padding: 15%;
+    display: flex;
+}
+
+.conteudo_apresentacao {
+    margin-left: 10%;
+}
+
+.anuncio_site {
+    padding: 5%;
+    background-color: whitesmoke;
+}
+
+.anuncio_site a{
+    color: #5054D9;
+}
+
+.anuncio {
+    text-align: end;
+    padding-right: 10%;
+}
+
+.anuncio a {
+    color: rgb(50, 50, 50);
+}
+
+.rodape {
+    background-color: #778899;
+    color: white;
+}
+
+.rodape-copyright {
+    background-color: #333333;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+
+.rodape .navbar{
+
+    height: 160px;
+}
+
+.rodape .rodape-copyright p {
+    margin: 10px;
+    color: #ccc;
+}
+
+.rodape ul {
+    display: flex;
+    margin: 0 auto;
+    padding-top: 10%;
+    flex-wrap: wrap;
+}
+
+
+.rodape .btn {
+    color: white;
+    background-color: #5054D9;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    line-height: 35px;
+    box-shadow: 1px 1px 3px black;
+    justify-content: center;
+}
+
+.btn {
+    color: white;
+    background-color: #5054D9;
+    border-radius: 20px;
+    border: none;
+    width: 200px;
+    line-height: 35px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.btn_site {
+    color: white;
+    background-color: #5054D9;
+    border-radius: 20px;
+    border: none;
+    width: 150px;
+    line-height: 35px;
+    box-shadow: 1px 1px 3px black;
+}
+
+.navbar {
+    padding-bottom: 15%;
+}
+
+.navbar h1 {
+    list-style-type: none;
+    padding-left: 0;
+    line-height: 1.7;
+}
+
+.contatos {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.mapa_site > div {
+    color: #5054D9;
+}
+
+.cadastrando {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    
+    width: auto;
+    background-color: whitesmoke;
+    box-sizing: border-box;
+}
+
+.contato_page {
+    text-align: center;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+
+.contatos_conteudo {
+    margin: 0 auto;
+    text-align: center;
+    background-color: whitesmoke;
+}
+
+
+/* CORES USADAS
+HEADER: #778899
+LOGIN/REG: #657EF0
+
+#799ADB - COR ENTRE OS 2 ACIMA
+
+#5054D9 - AZUL MAIS ESCURO
+
+#6C54FF - ROXO
+*/
+
+.sec {
+    background-color: whitesmoke;
+}
+
+.ul_style {
+    text-align: center; 
+    height: 150px; 
+    width: 100%;
+}
+
+.loginmenu {
+    margin: 0 auto;
+    text-align: center;
+    padding: 3% 0%;
+    padding-bottom: 8%;
+}
+
+table {
+    margin: 0 auto;
+    padding: 0;
+}
